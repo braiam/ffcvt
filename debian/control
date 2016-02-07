@@ -1,0 +1,18 @@
+Source: ffcvt
+Maintainer: Braiam Peguero <braiamp@gmail.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9),
+	       dh-golang,
+	       golang-pq-dev,
+	       golang-go,
+	       golang-godebiancontrol-dev,
+	       golang-codesearch-dev
+
+Package: ffcvt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Built-Using: ${misc:Built-Using}
+Description: ffmpeg convert wrapper tool
+ A long description here...
